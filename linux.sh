@@ -13,9 +13,10 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 # Manual steps
-echo -e " \nRemove JAVA_HOME and PATH entries from user .bashrc or .zshrc to avoid conflicts!"
+echo -e " \nRemove JAVA_HOME and PATH=\$JAVA_HOME/bin:\$PATH entries from user .bashrc or .zshrc to avoid conflicts!"
 echo "Also consider removing old JDK installations."
-read -r -p "Press [Enter] to continue..." < /dev/tty
+echo "If you need to remove something, terminate the script now (Ctrl + C), then restart after manual steps are done."
+sleep 8
 
 echo -e "\nInstalling JDK 25...\n"
 
