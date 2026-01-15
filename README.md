@@ -41,13 +41,13 @@ Cross-platform scripts to download, install, and configure JDK 25.
 
 ### Linux
 
-```
+``` bash
 curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/linux.sh | sudo bash
 ```
 
 ### macOS
 
-```
+``` bash
 curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/macos.sh | bash
 ```
 
@@ -56,7 +56,7 @@ curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/macos.sh | bas
 > [!IMPORTANT]
 > Open PowerShell **as Administrator** before running this command.
 
-```
+``` bash
 iwr -useb https://raw.githubusercontent.com/BrNi05/auto-jdk/main/windows.ps1 | iex
 ```
 
