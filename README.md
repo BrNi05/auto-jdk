@@ -41,18 +41,24 @@ Cross-platform scripts to download, install, and configure JDK 25.
 
 ### Linux
 
-`curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/linux.sh | sudo bash`
+```
+curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/linux.sh | sudo bash
+```
 
 ### macOS
 
-`curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/macos.sh | bash`
+```
+curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/macos.sh | bash
+```
 
 ### Windows
 
 > [!IMPORTANT]
 > Open PowerShell **as Administrator** before running this command.
 
-`iwr -useb https://raw.githubusercontent.com/BrNi05/auto-jdk/main/windows.ps1 | iex`
+```
+iwr -useb https://raw.githubusercontent.com/BrNi05/auto-jdk/main/windows.ps1 | iex
+```
 
 ### After installation
 
