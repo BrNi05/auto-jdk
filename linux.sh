@@ -15,7 +15,7 @@ fi
 # Manual steps
 echo -e " \nRemove JAVA_HOME and PATH entries from user .bashrc or .zshrc to avoid conflicts!"
 echo "Also consider removing old JDK installations."
-read -p "Press [Enter] to continue..."
+read -r -p "Press [Enter] to continue..." < /dev/tty
 
 echo -e "\nInstalling JDK 25...\n"
 
