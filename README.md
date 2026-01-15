@@ -39,6 +39,9 @@ Cross-platform scripts to download, install, and configure JDK 25.
 
 ## Usage
 
+> [!WARNING]
+> If you have previously installed JDK(s), be sure to first remove at least the `JAVA_HOME` assignments and related `PATH` overrides.
+
 ### Linux
 
 ``` bash
