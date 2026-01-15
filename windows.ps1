@@ -3,6 +3,7 @@
 $ErrorActionPreference = "Stop"
 trap {
     Write-Error "Script failed. Terminating..."
+    Read-Host "Press [Enter] to exit..."
     exit 1
 }
 
@@ -13,6 +14,7 @@ $IsAdmin = ([Security.Principal.WindowsPrincipal] `
 
 if (-not $IsAdmin) {
     Write-Host "Script not running as Administrator. Terminating..."
+    Read-Host "Press [Enter] to exit..."
     exit 1
 }
 
