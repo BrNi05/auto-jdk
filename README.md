@@ -60,6 +60,9 @@ curl -fsSL https://raw.githubusercontent.com/BrNi05/auto-jdk/main/macos.sh | bas
 iwr -useb https://raw.githubusercontent.com/BrNi05/auto-jdk/main/windows.ps1 | iex
 ```
 
+> [!TIP]
+> This might take a few minutes to complete.
+
 ### After installation
 
 - Restart the terminal or log out and back in
